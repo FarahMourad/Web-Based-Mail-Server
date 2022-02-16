@@ -1,0 +1,84 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "sender": {
+          "type": "string"
+        },
+        "receiver": {
+          "type": "string"
+        },
+        "subject": {
+          "type": "string"
+        },
+        "dates": {
+          "type": "string"
+        },
+        "attachment": {
+          "type": "string"
+        },
+        "content": {
+          "type": "string"
+        },
+        "key": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "sender",
+        "receiver",
+        "subject",
+        "dates",
+        "attachment",
+        "content",
+        "key",
+        "id"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "sender": {
+          "type": "string"
+        },
+        "receiver": {
+          "type": "string"
+        },
+        "subject": {
+          "type": "string"
+        },
+        "dates": {
+          "type": "string"
+        },
+        "attachment": {
+          "type": "string"
+        },
+        "content": {
+          "type": "string"
+        },
+        "key": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "sender",
+        "receiver",
+        "subject",
+        "dates",
+        "attachment",
+        "content",
+        "key",
+        "id"
+      ]
+    }
+  ]
+}
