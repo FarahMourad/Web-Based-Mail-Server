@@ -8,8 +8,9 @@
      npm install
    ### Run the app
      npm run serve -->
-# Web-Based Mail Application
-This is a web-based mail application built using Vue.js framework for the front-end and Spring Boot Java for the back-end. The application includes the following features:
+![image](https://github.com/FarahMourad/Web-Based-Mail-Server/assets/51189763/ffb5a6cb-97cb-4d01-8e8c-a9fa68fee5ec)
+# Hidwig 
+Hidwig is a web-based mail application built using Vue.js framework for the front-end and Spring Boot Java for the back-end. The application includes the following:
 
 ## Functionalities
 This section describes all the work needed for the mailing system.
@@ -49,6 +50,9 @@ By applying these design patterns and making these design decisions, the web-bas
 ### Sign Up
 To use the application, the user must sign up with a valid email address and password.
 If the email address is already in use, the website will generate a warning message.
+
+![image](https://github.com/FarahMourad/Web-Based-Mail-Server/assets/51189763/7c879b67-ec89-463d-a009-3012e912a8c2)
+
 ### Sign In
 If the user is already in the database, they can sign in using their email address and password.
 If either the email address or password is incorrect, the website will generate a warning message.
@@ -56,20 +60,40 @@ When the user signs in successfully, the webpage will display messages in the in
 ### Folder Navigation
 If the user clicks on any folder other than the inbox folder, the webpage will display the mails stored in that folder.
 New folders can be created by clicking on the "Create new folder" button.
+
+![image](https://github.com/FarahMourad/Web-Based-Mail-Server/assets/51189763/35d6a864-80ad-452c-bb97-bdbf683c192b)
+
 Existing folders can be renamed by clicking on the edit icon.
 Folders can be deleted by clicking on the bin icon.
 The extra folders are saved for each user.
+
+![image](https://github.com/FarahMourad/Web-Based-Mail-Server/assets/51189763/2b6ac902-a7be-4bb1-9671-86ebe502df88)
+
 ### Sending Messages
 To send a message, the user must click on the "New message" button and write their message in the window that appears.
 The importance of each mail can be set by clicking on the star icon. Click on the star icon again to disable it.
 If the message is not completed or not sent, it will automatically be moved to the draft folder.
 To send a message to multiple recipients, enter their email addresses separated by commas.
+
+![image](https://github.com/FarahMourad/Web-Based-Mail-Server/assets/51189763/94092f1d-be46-416e-97ec-72a2dce90a0b)
+
 ### Managing Messages
 If the user deletes a mail, it will automatically be moved to the trash folder.
 After 30 days in the trash folder, the message will be deleted permanently.
+
 To sort the mails, click on the sorting symbol and choose the type of sorting.
+
+![image](https://github.com/FarahMourad/Web-Based-Mail-Server/assets/51189763/049d2177-3640-45cd-89ff-723cda754ce1)
+
 Filter is supported when the user clicks on the filter symbol. They must select the criteria they want to filter by.
 Search by different attributes is supported, but the search is limited to the current folder only. To search, enter the search word next to the search symbol.
+
+![image](https://github.com/FarahMourad/Web-Based-Mail-Server/assets/51189763/87bab053-c78c-4895-80ab-c44f0f8283a4)
+
+### Changing Account Information 
+
+![image](https://github.com/FarahMourad/Web-Based-Mail-Server/assets/51189763/846f711a-3300-4e1c-a13e-bbdacec0729e)
+
 To move a mail to a different folder, click on the move icon.
 By following this user guide, users can easily navigate and use the features of the web-based mail application.
 
